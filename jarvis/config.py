@@ -12,8 +12,8 @@ TODO: In production, migrate to environment variables using python-dotenv:
 """
 
 # API Keys - Replace these with your actual keys
-DEEPGRAM_API_KEY = "988be47d91aca476e11aad90ed37e5abf4d34eb9"
-GROQ_API_KEY = "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"
+DEEPGRAM_API_KEY = "key"
+GROQ_API_KEY = "key"
 
 # Audio Configuration
 AUDIO_SAMPLE_RATE = 16000  # Hz
@@ -36,3 +36,4 @@ SYSTEM_PROMPT = "You are JARVIS, an intelligent, polite college assistant robot.
 
 # File paths
 AUDIO_OUTPUT_FILE = "audio.wav"
+
