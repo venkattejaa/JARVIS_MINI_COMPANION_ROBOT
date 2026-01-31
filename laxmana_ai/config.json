@@ -1,0 +1,28 @@
+{
+  "model_config": {
+    "model_name": "laxmana-7b-v1",
+    "max_context_length": 8192,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 50,
+    "repetition_penalty": 1.2
+  },
+  "training_config": {
+    "learning_rate": 1e-5,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_steps": 1000,
+    "weight_decay": 0.01
+  },
+  "inference_config": {
+    "max_new_tokens": 1024,
+    "do_sample": true,
+    "num_beams": 1,
+    "early_stopping": false
+  },
+  "system_prompts": {
+    "default": "You are LAXMANA, a highly advanced AI assistant designed to be helpful, harmless, and honest. You excel at reasoning, problem-solving, and providing accurate information.",
+    "reasoning": "As LAXMANA, approach this problem systematically. Break it down into steps, consider multiple perspectives, and provide a well-reasoned response.",
+    "creative": "As LAXMANA, engage your creative faculties to provide innovative and original responses while maintaining accuracy and helpfulness."
+  }
+}
